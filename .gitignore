@@ -1,0 +1,5 @@
+.venv/
+myteacher/settings/development.py
+myteacher/settings/production.py
+myteacher/settings/testing.py
+myteacher/db.sqlite3

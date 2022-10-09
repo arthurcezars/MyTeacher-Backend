@@ -9,3 +9,4 @@ class ProfessorAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(Professor, ProfessorAdmin)
+admin.site.register(Aula)

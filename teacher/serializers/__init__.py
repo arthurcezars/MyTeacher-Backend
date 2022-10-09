@@ -1,1 +1,4 @@
 from rest_framework import serializers
+
+from .ProfessorSerializer import ProfessorSerializer
+from .AulaSerializer import CadastrarAulaSerializer, AulaSerializer

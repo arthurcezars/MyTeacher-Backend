@@ -19,4 +19,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('professores/', include('teacher.urls.ProfessorAPIUrls')),
+    path('professores/<int:id_professor>/aulas', include('teacher.urls.AulaAPIUrls'))
 ]
